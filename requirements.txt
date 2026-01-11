@@ -1,0 +1,22 @@
+# EmbryoVision AI - Requirements
+# Python 3.10+ recommended
+
+# Core ML frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.9.0
+
+# Streamlit
+streamlit>=1.28.0
+
+# Image processing
+Pillow>=9.5.0
+opencv-python>=4.8.0
+albumentations>=1.3.1
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Additional utilities
+python-dateutil>=2.8.2
