@@ -18,6 +18,12 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 import cv2
 
+try:
+    import albumentations as A
+except ImportError:
+    A = None
+
+
 # Page configuration
 st.set_page_config(
     page_title="EmbryoVision AI",
@@ -1092,3 +1098,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
