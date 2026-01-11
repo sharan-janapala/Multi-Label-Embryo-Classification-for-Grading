@@ -1,0 +1,2 @@
+Timestamp,Patient_Name,Age,Location,Mode,EXP,ICM,TE,Morphology_Index,Grade,Classification,Confidence
+2026-01-05 18:04:22,xyz,30,,Manual,1,3,3,0.775,B,Good,85.0%
