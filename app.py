@@ -14,8 +14,15 @@ import numpy as np
 import io
 import os
 from datetime import datetime
+import albumentations as A
 from albumentations.pytorch import ToTensorV2
 import cv2
+
+try:
+    from albumentations.pytorch import ToTensorV2
+except ImportError:
+    ToTensorV2 = None
+
 
 try:
     import albumentations as A
@@ -1097,5 +1104,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
